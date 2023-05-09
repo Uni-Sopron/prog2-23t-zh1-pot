@@ -14,7 +14,7 @@ search('egY')
 
 ## 2. feladat
 
-Valósítsa meg a `def website_average_word_statistics(sites: list, min_length: int = 5)` függvényt. A függvény a paraméterül megkapott weboldalakról statisztikát készít méghozzá oly módon, hogy cikkekre bontva megadja, hogy mennyi az átlagos szóhossz az adott cikkben és ezt plotolja, oly módon, hogy közben figyelembe veszi a `min_length` értékét is és csak akkor dolgoz fel egy szót, hogyha a hossza legalább ennyi. Amennyiben több oldal is megadásra kerül, akkor ezek mindegyikét egy ábrán jeleníti meg. A grafikont a `<site1_site2_...>_results.png` file-ba menti ki. A grafikon jelenítse meg címként, hogy milyen adatokat tartalmaz, illetve címkézze fel a tengelyeket is ahol értelmes.
+Valósítsa meg a `def website_average_word_statistics(sites: list, min_length: int = 5)` függvényt. A függvény a paraméterül megkapott weboldalakról statisztikát készít méghozzá oly módon, hogy cikkekre bontva megadja, hogy mennyi az átlagos szóhossz az adott cikkben és ezt plotolja, oly módon, hogy közben figyelembe veszi a `min_length` értékét is és csak akkor dolgoz fel egy szót, hogyha a hossza legalább ennyi. A cikkek sorrendje a honlapon belül lényegtelen. Amennyiben több oldal is megadásra kerül, akkor ezek mindegyikét egy ábrán jeleníti meg. A grafikont a `<site1_site2_...>_results.png` file-ba menti ki. A grafikon jelenítse meg címként, hogy milyen adatokat tartalmaz, illetve címkézze fel a tengelyeket is ahol értelmes.
 
 ```python
 website_average_word_statistics(['hvg', 'index', 'origo'])
